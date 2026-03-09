@@ -3,63 +3,61 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.welcome{
-    border: 20px;
-    border-radius: 20px;
-    border-color:#326ac4;
-    background:#131f3f ;
-    color: #2354a3;
-    
+.welcome {
+  border: 20px;
+  border-radius: 20px;
+  border-color: #326ac4;
+  background: #131f3f;
+  color: #2354a3;
 }
-h1{
-    color: white;
+h1 {
+  color: white;
 }
-.bio{
-    color:#9CA3AF;
+.bio {
+  color: #9ca3af;
+  font-size: medium;
 }
-.workButton{
-    background: #8B5CF6;
-    border-radius: 20px;
-    color: white;
+.workButton {
+  background: #8b5cf6;
+  border-radius: 20px;
+  color: white;
 }
-.workButton:hover{
-    color: black;
+.workButton:hover {
+  color: black;
 }
-.emailButton{
-    color: #8B5CF6;
-    border-color: #8B5CF6;
-    background: none;
-    border-radius: 20px;
+.emailButton {
+  color: #8b5cf6;
+  border-color: #8b5cf6;
+  background: none;
+  border-radius: 20px;
 }
-.emailButton:hover{
-     background: #8B5CF6;
-    color: white;
+.emailButton:hover {
+  background: #8b5cf6;
+  color: white;
 }
-.firstButtons{
-    display: flex;
-    gap: 10px;
+.firstButtons {
+  display: flex;
+  gap: 10px;
 }
 
 .code-window {
-  background-color: #0d1117; 
+  background-color: #0d1117;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   overflow: hidden;
-  font-family: 'Fira Code', monospace; 
-  max-width: 900px; 
+  font-family: 'Fira Code', monospace;
+  max-width: 900px;
   margin: 20px auto;
 }
 
-
 .window-header {
-  background-color: rgba(255, 255, 255, 0.05); 
+  background-color: rgba(255, 255, 255, 0.05);
   padding: 12px 16px;
   display: flex;
-  gap: 8px; 
+  gap: 8px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
-
 
 .dot {
   width: 12px;
@@ -68,26 +66,36 @@ h1{
   display: inline-block;
 }
 
-.red { background-color: #ff5f56; }
-.yellow { background-color: #ffbd2e; }
-.green { background-color: #27c93f; }
-
+.red {
+  background-color: #ff5f56;
+}
+.yellow {
+  background-color: #ffbd2e;
+}
+.green {
+  background-color: #27c93f;
+}
 
 .window-body {
   padding: 24px;
-  color: #c9d1d9; 
+  color: #c9d1d9;
   font-size: 14px;
   line-height: 1.6;
 }
 
-
-.keyword { color: #ff7b72; }  
-.variable { color: #79c0ff; }  
-.property { color: #d2a8ff; }  
-a{
-  text-decoration: none;
-  color: #8B5CF6;
+.keyword {
+  color: #ff7b72;
 }
-a:hover{
+.variable {
+  color: #79c0ff;
+}
+.property {
+  color: #d2a8ff;
+}
+a {
+  text-decoration: none;
+  color: #8b5cf6;
+}
+a:hover {
   color: white;
 }
