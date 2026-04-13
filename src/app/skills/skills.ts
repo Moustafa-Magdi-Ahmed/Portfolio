@@ -13,5 +13,6 @@ export class Skills {
 frontSkills:string[]=['HTML','CSS','JavaScript','Angular','BootStrap','Tailwind']
 backSkills:string[]=['Node.js','Express.js','RESTful API']
 toolsSkills:string[]=['Github']
+database:string[]=['SQL','PostgreSQL']
 
 }
